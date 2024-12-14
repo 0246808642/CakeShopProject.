@@ -1,5 +1,4 @@
-﻿using CakeShopProject.Domain.Entities.Enum;
-using System.Runtime.CompilerServices;
+﻿using CakeShopProject.Domain.Enum;
 
 namespace CakeShopProject.Domain.Entities.Base
 {
@@ -10,7 +9,7 @@ namespace CakeShopProject.Domain.Entities.Base
         public DateTime DataCreated { get; set; } = DateTime.Now;
         public string UserIdCreated { get; set; } = string.Empty;
         public DateTime? DataModified { get; set; }
-        public string UserIdModified  { get; set; }= string.Empty;
+        public string UserIdModified { get; set; } = string.Empty;
         public DateTime? DateDeleted { get; set; }
         public string UserIdDeleted { get; set; } = string.Empty;
 

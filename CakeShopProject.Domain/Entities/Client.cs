@@ -7,14 +7,13 @@ namespace CakeShopProject.Domain.Entities;
 public class Client : EntityBase
 {
     public string Name { get; set; }
-    public string Surname { get; set; }
-    public byte Telephone { get; set; }
+    public string Telephone { get; set; }
     public string Email { get; set; }
     public DateTime DataOfBirth { get; set; }
     public string Cpf { get; set; }
     public string Address { get; set; }
-    public byte NumberOfHouse { get; set; }
-    public byte ZipCode { get; set; }
+    public string NumberOfHouse { get; set; }
+    public string ZipCode { get; set; }
 
     // Relacionamento
     public virtual ICollection<Orders> Orders { get; set; }

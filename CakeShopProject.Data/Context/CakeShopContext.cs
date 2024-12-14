@@ -6,7 +6,7 @@ namespace CakeShopProject.Data.Context;
 
 public class CakeShopContext : DbContext
 {
-    public CakeShopContext(DbContextOptions options) : base(options) { }
+    public CakeShopContext(DbContextOptions<CakeShopContext> options) : base(options) { }
 
     /// <summary>
     /// Representação das tabelas

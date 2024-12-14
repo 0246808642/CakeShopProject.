@@ -12,7 +12,6 @@ public class ClientMap : IEntityTypeConfiguration<Client>
         builder.HasKey(x =>x.Id);
 
         builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
-        builder.Property(x=> x.Surname).HasMaxLength(20).IsRequired();
         builder.Property(x=> x.Telephone).HasMaxLength(15).IsRequired();
         builder.Property(x=>x.Email).HasMaxLength(100).IsRequired();
         builder.Property(x=>x.DataOfBirth).HasMaxLength(10).IsRequired();
