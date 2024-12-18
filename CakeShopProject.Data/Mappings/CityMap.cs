@@ -11,7 +11,7 @@ public class CityMap : IEntityTypeConfiguration<City>
         builder.ToTable("City");
         builder.HasKey(x => x.Id);
 
-        builder.Property(x=>x.Nome).HasMaxLength(80).IsRequired();
+        builder.Property(x=>x.Name).HasMaxLength(80).IsRequired();
         builder.Property(x=>x.CodeCity).HasMaxLength(2).IsRequired();
 
         // Relacionamento de um State pra varias City

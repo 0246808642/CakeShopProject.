@@ -1,0 +1,6 @@
+@CakeShopProject.WebApi_HostAddress = http://localhost:5229
+
+GET {{CakeShopProject.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

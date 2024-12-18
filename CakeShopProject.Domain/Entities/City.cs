@@ -6,7 +6,7 @@ namespace CakeShopProject.Domain.Entities;
 /// </summary>
 public class City : EntityBase
 {
-    public string Nome { get; set; }
+    public string Name { get; set; }
     public string CodeCity { get; set; }
 
     // Relacionamento

@@ -5,7 +5,13 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeShopProject.Domain", "CakeShopProject.Domain\CakeShopProject.Domain.csproj", "{932AFE48-4254-44F6-9C6B-313DFBF9177D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeShopProject.Data", "CakeShopProject.Data\CakeShopProject.Data.csproj", "{6B71714F-ECDB-4CE6-8E09-F6EDF7A7C5C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeShopProject.Data", "CakeShopProject.Data\CakeShopProject.Data.csproj", "{6B71714F-ECDB-4CE6-8E09-F6EDF7A7C5C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeShopProject.Service", "CakeShopProject.Service\CakeShopProject.Service.csproj", "{0523A6D3-1185-4AE6-AE86-40447B9AC8EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeShopProject.CrossCutting", "CakeShopProject.CrossCutting\CakeShopProject.CrossCutting.csproj", "{B6F4F2BB-CC24-4D62-8BD8-FF09187029D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeShopProject.WebApi", "CakeShopProject.WebApi\CakeShopProject.WebApi.csproj", "{12DE74BF-B1D1-46AC-A8B3-B98532B22190}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{6B71714F-ECDB-4CE6-8E09-F6EDF7A7C5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B71714F-ECDB-4CE6-8E09-F6EDF7A7C5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B71714F-ECDB-4CE6-8E09-F6EDF7A7C5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0523A6D3-1185-4AE6-AE86-40447B9AC8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0523A6D3-1185-4AE6-AE86-40447B9AC8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0523A6D3-1185-4AE6-AE86-40447B9AC8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0523A6D3-1185-4AE6-AE86-40447B9AC8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F4F2BB-CC24-4D62-8BD8-FF09187029D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F4F2BB-CC24-4D62-8BD8-FF09187029D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F4F2BB-CC24-4D62-8BD8-FF09187029D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F4F2BB-CC24-4D62-8BD8-FF09187029D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DE74BF-B1D1-46AC-A8B3-B98532B22190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DE74BF-B1D1-46AC-A8B3-B98532B22190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DE74BF-B1D1-46AC-A8B3-B98532B22190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DE74BF-B1D1-46AC-A8B3-B98532B22190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
