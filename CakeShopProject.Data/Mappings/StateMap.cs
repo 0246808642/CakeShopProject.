@@ -13,6 +13,18 @@ public class StateMap : IEntityTypeConfiguration<State>
         
         builder.Property(x => x.Name).HasMaxLength(50).IsRequired();
         builder.Property(x=> x.Uf).HasMaxLength(2).IsRequired();
+        #region Default
+        builder.Property(x => x.DataCreated);
+        builder.Property(x => x.UserIdCreated).HasMaxLength(50);
+        builder.Property(u => u.DateModified);
+        builder.Property(u => u.UserIdModified).HasMaxLength(50);
+
+        builder.Property(u => u.DateDeleted);
+        builder.Property(u => u.UserIdDeleted).HasMaxLength(50);
+
+        //Enum
+        builder.Property(x => x.Situation).IsRequired().HasDefaultValueSql("1");
+        #endregion
 
 
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CakeShopProject.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f9e2d3a0a77b4ff617562829a1e058ba5c247d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3b05685c4647a8026ef4bcbf48be90d9f110a2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CakeShopProject.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CakeShopProject.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

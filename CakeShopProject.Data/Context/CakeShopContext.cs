@@ -11,13 +11,13 @@ public class CakeShopContext : DbContext
     /// <summary>
     /// Representação das tabelas
     /// </summary>
-   
+
     public DbSet<State> State { get; set; }
     public DbSet<City> City { get; set; }
     public DbSet<Client> Client { get; set; }
     public DbSet<Orders> Orders { get; set; }
     public DbSet<Product> Product { get; set; }
-   
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

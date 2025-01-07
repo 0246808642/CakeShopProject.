@@ -1,0 +1,16 @@
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\bin\Debug\net8.0\CakeShopProject.Shared.deps.json
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\bin\Debug\net8.0\CakeShopProject.Shared.dll
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\bin\Debug\net8.0\CakeShopProject.Shared.pdb
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\bin\Debug\net8.0\CakeShopProject.Domain.dll
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\bin\Debug\net8.0\CakeShopProject.Domain.pdb
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.csproj.AssemblyReference.cache
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.AssemblyInfoInputs.cache
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.AssemblyInfo.cs
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.csproj.CoreCompileInputs.cache
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.sourcelink.json
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShop.0915CC18.Up2Date
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.dll
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\refint\CakeShopProject.Shared.dll
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\CakeShopProject.Shared.pdb
+C:\Users\T-GAMER\source\repos\CakeShopProject\CakeShopProject.Shared\obj\Debug\net8.0\ref\CakeShopProject.Shared.dll

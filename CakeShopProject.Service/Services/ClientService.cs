@@ -3,9 +3,7 @@ using CakeShopProject.Domain.Enum;
 using CakeShopProject.Domain.Interface.Repository;
 using CakeShopProject.Domain.Interface.Service;
 using FluentValidation;
-using FluentValidation.Results;
-using Microsoft.IdentityModel.Tokens;
-using System.Collections.Generic;
+using CakeShopProject.Shared.Helpers;
 using System.Linq.Expressions;
 using ValidationFailure = FluentValidation.Results.ValidationFailure;
 
@@ -16,7 +14,7 @@ public class ClientService : IClientService
     private readonly IValidator<Client> _vValidator;
     private readonly IClientRepository _repository;
 
-    public ClientService(IClientRepository repository,IValidator<Client> Validator)
+    public ClientService(IClientRepository repository, IValidator<Client> Validator)
     {
         _repository = repository;
         _vValidator = Validator;
@@ -99,6 +97,11 @@ public class ClientService : IClientService
             listErrors.Add(new ValidationFailure("Client", $"Já existe um cpf {(isValidateCpf.Situation == Situation.Active ? " ativo " : " inativo ")} cadastrado para esse cliente."));
 
         return listErrors;
+    }
+
+    Task<List<Microsoft.IdentityModel.Tokens.ValidationFailure>> IClientService.ValidateClient(Client entity)
+    {
+        throw new NotImplementedException();
     }
 }
 

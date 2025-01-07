@@ -8,11 +8,11 @@ namespace CakeShopProject.Domain.Entities;
 public class Product : EntityBase
 {
     public string Name { get; set; }
-    public Size? Size { get; set; } 
-    public Flavor? Flavor { get; set; }
+    public Size? Size { get; set; } = Enum.Size.Small;
+    public Flavor? Flavor { get; set; } = Enum.Flavor.chocolate;
     public decimal Price { get; set; }
 
     // Relacionamento
     public long OrdersId { get; set; }
-    public Orders Orders { get; set; }
+    public Orders Orders  { get; set; }
 }

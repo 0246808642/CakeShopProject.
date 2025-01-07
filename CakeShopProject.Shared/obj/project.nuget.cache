@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6871Ps72ffQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\T-GAMER\\source\\repos\\CakeShopProject\\CakeShopProject.Shared\\CakeShopProject.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\T-GAMER\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.3.0\\microsoft.identitymodel.abstractions.8.3.0.nupkg.sha512",
+    "C:\\Users\\T-GAMER\\.nuget\\packages\\microsoft.identitymodel.logging\\8.3.0\\microsoft.identitymodel.logging.8.3.0.nupkg.sha512",
+    "C:\\Users\\T-GAMER\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.3.0\\microsoft.identitymodel.tokens.8.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

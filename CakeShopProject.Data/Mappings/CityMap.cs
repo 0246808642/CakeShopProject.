@@ -16,5 +16,17 @@ public class CityMap : IEntityTypeConfiguration<City>
 
         // Relacionamento de um State pra varias City
         builder.HasOne(x=>x.State).WithMany(x => x.City).HasForeignKey(x=>x.StateId);
+        #region Default
+        builder.Property(x => x.DataCreated);
+        builder.Property(x => x.UserIdCreated).HasMaxLength(50);
+        builder.Property(u => u.DateModified);
+        builder.Property(u => u.UserIdModified).HasMaxLength(50);
+
+        builder.Property(u => u.DateDeleted);
+        builder.Property(u => u.UserIdDeleted).HasMaxLength(50);
+
+        //Enum
+        builder.Property(x => x.Situation).IsRequired().HasDefaultValueSql("1");
+        #endregion
     }
 }

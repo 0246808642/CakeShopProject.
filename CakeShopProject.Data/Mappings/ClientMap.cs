@@ -20,6 +20,19 @@ public class ClientMap : IEntityTypeConfiguration<Client>
         builder.Property(x=>x.NumberOfHouse).HasMaxLength(10).IsRequired();
         builder.Property(x=>x.ZipCode).HasMaxLength(9).IsRequired();
 
+        #region Default
+        builder.Property(x => x.DataCreated);
+        builder.Property(x => x.UserIdCreated).HasMaxLength(50);
+        builder.Property(u => u.DateModified);
+        builder.Property(u => u.UserIdModified).HasMaxLength(50);
+
+        builder.Property(u => u.DateDeleted);
+        builder.Property(u => u.UserIdDeleted).HasMaxLength(50);
+
+        //Enum
+        builder.Property(x => x.Situation).IsRequired().HasDefaultValueSql("1");
+        #endregion
+
         // Relacionamento de uma cidade pode ter varios clientes
         builder.HasOne(x => x.City).WithMany(x=> x.Client).HasForeignKey(x => x.CityId);
 
